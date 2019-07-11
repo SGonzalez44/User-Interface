@@ -64,45 +64,64 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.top{
+	display:flex;
+	justify-content: space-between;
+	
+}
+.container{
+	display:flex;
+	justify-content: space-around;
+	justify-content: center;
+	padding: 20px;
+}
+
+.container2{
+	display:flex;
+	justify-content: space-around;
+	justify-content: center;
+	padding: 20px;
+}
+.container3{
+	display:flex;
+	justify-content: space-around;
+	justify-content: center;
+	padding: 20px;
+}
 .left{
-	display: inline-block;
-	border: 1px solid red;
+	font-size: 80px;
+	text-align: center;
+	margin-right: 20px;
+	padding: 20px;
 }
 .right{
-	display:inline-block;
-	border: 1px solid red;
-	margin-left: 600px;
+	margin-left: 40px;
+	padding: 20px;
 }
-.box1{
-	display:inline-block;
-	border: 1px solid red;
-	width: 50%;
+body{
+	padding:120px
 }
-.box2{
-	display:inline-block;
-	border: 1px solid red;
-	width: 50%;
-	float: right;
+img[class="logo"]{
+	margin-left: 35px;
+	padding: 20px;
 }
-nav{
-	text-align: center
+img[class="middle-img"]{
+	margin-left: 15px;
+	padding: 20px;
 }
-.box3{
-	display:inline-block;
-	border: 1px solid red;
-	width: 30%;
+h1{
+	margin-top: 40px;
+	padding: 20px;
 }
-
-.box4{
-	display:inline-block;
-	border: 1px solid red;
-	width: 30%;
-	margin: auto;
+button{
+	font-size: 30px;
+	border-radius: 5px;
+	padding: 20px;
 }
-
-.box5{
-	display:inline-block;
-	border: 1px solid red;
-	width: 30%;
-	margin-left: 800px
-	}
+footer{
+	display:flex;
+	justify-content: space-between;
+	justify-content: center;
+	margin-bottom: 50px;
+}
