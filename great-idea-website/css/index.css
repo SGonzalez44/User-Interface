@@ -57,20 +57,16 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 header{
-	
 	display:flex;
 	justify-content:space-between;
-	}
-
+}
 a{
 	text-decoration: none;
 	color:black;
 }
-
 .topone{
 display:flex;
 justify-content: center;;
-
 }
 .box{
 	margin-bottom:1rem;
@@ -79,10 +75,7 @@ justify-content: center;;
 .container, .container2{
 	display:flex;
 	justify-content: space-around;
-
-
 }
-
 .left{
 	text-align: center;
 	font-size: 60px;
@@ -91,7 +84,6 @@ justify-content: center;;
 button{
 	font-size: 15px;
 	border-radius: 5px;
-
 }
 .middle-img{
 	width:100%;
