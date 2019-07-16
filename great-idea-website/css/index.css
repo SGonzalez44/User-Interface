@@ -31,20 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ul {
 	list-style: none;
 }
 blockquote, q {
 	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -65,63 +56,52 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.top{
-	display:flex;
-	justify-content: space-between;
+header{
 	
-}
-.container{
 	display:flex;
-	justify-content: space-around;
-	justify-content: center;
-	padding: 20px;
+	justify-content:space-between;
+	}
+
+a{
+	text-decoration: none;
+	color:black;
 }
 
-.container2{
+.topone{
+display:flex;
+justify-content: center;;
+
+}
+.box{
+	margin-bottom:1rem;
+	margin-right: 1rem;
+}
+.container, .container2{
 	display:flex;
 	justify-content: space-around;
-	justify-content: center;
-	padding: 20px;
+
+
 }
-.container3{
-	display:flex;
-	justify-content: space-around;
-	justify-content: center;
-	padding: 20px;
-}
+
 .left{
-	font-size: 80px;
 	text-align: center;
-	margin-right: 20px;
-	padding: 20px;
-}
-.right{
-	margin-left: 40px;
-	padding: 20px;
-}
-body{
-	padding:120px
-}
-img[class="logo"]{
-	margin-left: 35px;
-	padding: 20px;
-}
-img[class="middle-img"]{
-	margin-left: 15px;
-	padding: 20px;
-}
-h1{
-	margin-top: 40px;
-	padding: 20px;
+	font-size: 60px;
+	padding-top: 50px;
 }
 button{
-	font-size: 30px;
+	font-size: 15px;
 	border-radius: 5px;
-	padding: 20px;
+
+}
+.middle-img{
+	width:100%;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 footer{
 	display:flex;
-	justify-content: space-between;
 	justify-content: center;
-	margin-bottom: 50px;
 }
